@@ -33,7 +33,7 @@
 .sidebar_header {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 13px;
     border-right: 1px solid lightgray;
 }
 
@@ -47,4 +47,9 @@
 .sidebar_headerRight > .MuiSvgIcon-root {
     margin-right: 2vw;
     font-size: 24px !important;
+}
+.sidebar_chats{
+    flex : 1;
+    background-color: white;
+    /* overflow: scroll; */
 }
